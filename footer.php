@@ -10,22 +10,60 @@
  */
 
 ?>
+<footer class="text-center text-white" style="background-color: #333333;">
+	<!-- Grid container -->
+	<div class="container pt-4">
+		<!-- Section: Social media -->
+		<section class="mb-4">
+			<!-- Facebook -->
+			<a
+			   class="btn btn-link btn-floating btn-lg text-dark m-1"
+			   href="https://www.facebook.com/fatecbaruerioficial"
+			   role="button"
+			   target="_blank"
+			   ><img 
+					 src="/wp-content/uploads/2021/05/facebook-app-symbol.png" 
+					 title="Facebook"
+					 alt="Facebook"
+					 /></a>
 
-	<footer id="colophon" class="site-footer">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'fatec-barueri' ) ); ?>">
-				<?php
-				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered by %s', 'fatec-barueri' ), 'WordPress' );
-				?>
-			</a>
-			<span class="sep"> | </span>
-				<?php
-				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'fatec-barueri' ), 'fatec-barueri', '<a href="http://underscores.me/">Underscores.me</a>' );
-				?>
-		</div><!-- .site-info -->
-	</footer><!-- #colophon -->
+			<!-- Instagram -->
+			<a
+			   class="btn btn-link btn-floating btn-lg text-dark m-1"
+			   href="https://www.instagram.com/fatecbaruerioficial/"
+			   role="button"
+			   target="_blank"
+			   ><img 
+					 src="/wp-content/uploads/2021/05/instagram.png" 
+					 title="Instagram"
+					 alt="Instagram"
+					 /></a>
+
+			<!-- YouTube -->
+			<a
+			   class="btn btn-link btn-floating btn-lg text-dark m-1"
+			   href="https://www.youtube.com/user/fatecbar"
+			   role="button"
+			   target="_blanc"
+			   ><img 
+					 src="/wp-content/uploads/2021/05/youtube.png" 
+					 title="Youtube"
+					 alt="Youtube"
+					 /></a>
+		</section>
+		<!-- Section: Social media -->
+	</div>
+	<!-- Grid container -->
+
+	<!-- Copyright -->
+	<div class="text-center text-white p-3" style="background-color: #B60000">
+		Av. Carlos Capriotti, 123 - Centro, Barueri - SP, 06401-136
+		<br />
+		Copyright © 2021 
+		<a class="text-white" href="https://mdbootstrap.com/">Fatec Barueri</a>
+	</div>
+	<!-- Copyright -->
+</footer>
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
