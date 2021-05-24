@@ -51,6 +51,35 @@ get_header();
 		?>
 
 	</main><!-- #main -->
+<div class="container-fluid" style="background-color: #333">
+	<div class="row">
+		<div class="col text-white">
+			<h2>Docentes</h2>
+		</div>
+	</div>
+</div>
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-sm docente-section-bg">
+			<div>
+				<p>
+					Este espaço destina-se a informações relevantes aos profissionais
+					docentes que atuam na Fatec Barueri, bem como aos interessados em vir
+					a trabalhar conosco.
+				</p>
+			</div>
+			<div>
+				<a>Perfil dos professores</a>
+			</div>
+			<div>
+				<a>Editais e Concursos</a>
+			</div>
+		</div>
+		<div class="col-sm remove-padding">
+			<img src="/wp-content/uploads/2021/05/giz.png" />
+		</div>
+	</div>
+</div>
 
 <?php
 get_sidebar();
