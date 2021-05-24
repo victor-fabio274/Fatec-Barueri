@@ -967,3 +967,31 @@ textarea {
 	margin-right: auto;
 	margin-bottom: 1.5em;
 }
+
+#primary-menu > li > a {
+	margin-right: 0.5em;
+    color: #fff;
+}
+
+#primary-menu > li > a::before {
+	content: "/";
+}
+
+
+.remove-padding {
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+.remove-padding-left {
+	padding-left: 0 !important;
+}
+.remove-padding-right {
+	padding-right: 0 !important;
+}
+
+.docente-section-bg {
+	background-image: url(/wp-content/uploads/2021/05/bg-27.png), url(/wp-content/uploads/2021/05/bg-37.png);
+	background-repeat: no-repeat;
+	background-position: bottom, right;
+	background-size: 80%, 2.7%;
+}
